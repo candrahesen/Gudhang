@@ -1,0 +1,5 @@
+<resources>
+
+    <dimen name="bottom_navigation_items">40dp</dimen>
+    
+</resources>

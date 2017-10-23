@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_daftar_produk"
+        android:icon="@drawable/ic_action_daftar_produk"
+        android:title=""
+        />
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_action_search"
+        android:title="" />
+    <item
+        android:id="@+id/menu_produk_disimpan"
+        android:icon="@drawable/ic_action_produk_disimpan"
+        android:title="" />
+    <item
+        android:id="@+id/menu_profil"
+        android:icon="@drawable/ic_action_profil"
+        android:title=""
+        />
+</menu>

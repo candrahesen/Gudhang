@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Gudhang</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="daftar_produk_fragment">Daftar Produk Fragment</string>
+    <string name="search_fragment">Search Fragment</string>
+    <string name="produk_disimpan_fragment">Produk Disimpan Fragment</string>
+    <string name="profil_fragment">Profil Fragment</string>
+    <string name="kategori_pertanian">Pertanian</string>
+    <string name="kategori_peternakan">Peternakan</string>
+    <string name="kategori_kerajinan">Kerajinan</string>
+    <string name="expand_data_kategori">Lihat semua</string>
+
+</resources>

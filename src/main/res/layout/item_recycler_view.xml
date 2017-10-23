@@ -1,0 +1,92 @@
+<android.support.v7.widget.CardView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/fotoProduk"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/dummy_foto_produk"
+            android:contentDescription="@null"
+            />
+
+        <TextView 
+            android:id="@+id/namaProduk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Produk"
+            android:layout_below="@+id/fotoProduk"
+            />
+
+        <TextView 
+            android:id="@+id/rupiah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp"
+            android:layout_below="@+id/namaProduk"
+            />
+
+        <TextView 
+            android:id="@+id/harga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harga"
+            android:layout_below="@+id/namaProduk"
+            android:layout_toRightOf="@+id/rupiah"
+            />
+
+        <TextView 
+            android:id="@+id/kg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/Kg"
+            android:layout_below="@+id/namaProduk"
+            android:layout_toRightOf="@+id/harga"
+            />
+
+        <ImageView
+            android:id="@+id/fotoLokasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_lokasi"
+            android:contentDescription="@null"
+            android:layout_below="@+id/rupiah"
+            />
+
+        <TextView 
+            android:id="@+id/lokasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lokasi"
+            android:layout_below="@+id/rupiah"
+            android:layout_toRightOf="@+id/fotoLokasi"
+            />
+
+        <ImageView
+            android:id="@+id/fotoGrosir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_action_grosir"
+            android:contentDescription="@null"
+            android:layout_below="@+id/fotoLokasi"
+            />
+
+        <TextView 
+            android:id="@+id/grosir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grosir"
+            android:layout_below="@+id/fotoLokasi"
+            android:layout_toRightOf="@+id/fotoGrosir"
+            />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
